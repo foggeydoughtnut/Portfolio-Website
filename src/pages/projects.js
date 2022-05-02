@@ -1,6 +1,9 @@
 import React from "react";
 import { Card, CardContent, Grid, Typography } from "@mui/material";
-import project from '../static/project.resized.png'
+import spaceguy from '../static/space-guy.resized.png';
+import towerdefense from '../static/TowerDefense.resized.jpg';
+import fpsShooter from '../static/FPS-Shooter.resized.png';
+import flashCardApp from '../static/FlashCardApp.png'
 import '../static/style.css';
 
 const Projects = () => {
@@ -17,9 +20,9 @@ const Projects = () => {
                     justify="center"
                     style={{ minheight: '100vh' }}
                 >
-                    <Card sx={{ width: '52vw' }}>
+                    <Card sx={{ width: '52vw' }} onClick={event => window.location.href="https://github.com/foggeydoughtnut/SpaceGuy-Unity"}>
                         <CardContent>
-                            <img src = {project} alt="current-project"/>
+                            <img src = {spaceguy} alt="space-guy project"/>
                         </CardContent>
                     </Card>
                 </Grid>
@@ -34,9 +37,9 @@ const Projects = () => {
                     justify="center"
                     style={{ minheight: '100vh' }}
                 >
-                    <Card sx={{ width: '52vw' }}>
+                    <Card sx={{ width: '52vw' }} onClick={event => window.location.href="https://github.com/foggeydoughtnut/TowerDefense"}>
                         <CardContent>
-                            <img src = {project} alt="current-project"/>
+                            <img src = {towerdefense} alt="Tower Defense project"/>
                         </CardContent>
                     </Card>
                 </Grid>
@@ -51,9 +54,9 @@ const Projects = () => {
                     justify="center"
                     style={{ minheight: '100vh' }}
                 >
-                    <Card sx={{ width: '52vw' }}>
+                    <Card sx={{ width: '52vw' }} onClick={event => window.location.href="https://github.com/foggeydoughtnut/FlashCardApp"}>
                         <CardContent>
-                            <img src = {project} alt="current-project"/>
+                            <img src = {flashCardApp} alt="Flash Card App"/>
                         </CardContent>
                     </Card>
                 </Grid>
@@ -68,30 +71,16 @@ const Projects = () => {
                     justify="center"
                     style={{ minheight: '100vh' }}
                 >
-                    <Card sx={{ width: '52vw' }}>
+                    <Card sx={{ width: '52vw' }} onClick={event => window.location.href="https://github.com/foggeydoughtnut/FPShooter"}>
                         <CardContent>
-                            <img src = {project} alt="current-project"/>
+                            <img src = {fpsShooter} alt="FPS Shooter Project"/>
                         </CardContent>
                     </Card>
                 </Grid>
             </div>
 
-            <div className="add-padding">
-                <Grid
-                    container
-                    spacing={0}
-                    direction="column"
-                    alignItems="center"
-                    justify="center"
-                    style={{ minheight: '100vh' }}
-                >
-                    <Card sx={{ width: '52vw' }}>
-                        <CardContent>
-                            <img src = {project} alt="current-project"/>
-                        </CardContent>
-                    </Card>
-                </Grid>
-            </div>
+
+
         </div>
     )
 }
