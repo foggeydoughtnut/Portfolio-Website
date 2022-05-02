@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div className="center add-padding">
             <Typography variant="h2">Welcome!</Typography>
-            <Typography variant="h5">Current Project</Typography>
+            <Typography variant="h6">My most recent project I am working on.</Typography>
             <div className="add-padding">
                 <Grid
                     container

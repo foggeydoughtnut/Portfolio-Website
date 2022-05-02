@@ -1,5 +1,6 @@
 import { Typography, Card, CardContent, Grid } from "@mui/material";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const About = () => {
     return (
@@ -17,7 +18,7 @@ const About = () => {
                     <Grid item>
                         <Card sx={{ width: '52vw' }}>
                             <CardContent>
-                                <Typography variant="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Congue mauris rhoncus aenean vel elit. Turpis cursus in hac habitasse platea dictumst. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Duis ut diam quam nulla. Ac turpis egestas sed tempus urna. Mattis molestie a iaculis at erat pellentesque. Posuere ac ut consequat semper viverra nam. Tortor at auctor urna nunc id cursus metus aliquam. Id neque aliquam vestibulum morbi blandit cursus risus. Vel pretium lectus quam id leo in vitae turpis. Amet justo donec enim diam vulputate ut. Venenatis cras sed felis eget velit aliquet. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Non nisi est sit amet facilisis magna etiam.</Typography>
+                                <Typography variant="p">I am a student at Utah State University studying Computer Science. I am currently a Junior Web Developer at Aidia, and also a Web-Developer for USU IT Service Desk.</Typography>
                             </CardContent>
                         </Card>
                     </Grid>
@@ -25,8 +26,8 @@ const About = () => {
                     <Grid item>
                         <Card sx={{ width: '52vw' }}>
                             <CardContent>
-                                <Typography variant="h6">Contact Me :</Typography>
-                                <Typography variant="h6">My GitHub  :</Typography>
+                                <Typography variant="h6">Contact Me : <a href="mailto:jeffaanderson0@gmail.com">jeffaanderson0@gmail.com</a></Typography>
+                                <Typography variant="h6">My GitHub  : <a href="https://github.com/foggeydoughtnut">GitHub</a></Typography>
                             </CardContent>
                         </Card>
                     </Grid>

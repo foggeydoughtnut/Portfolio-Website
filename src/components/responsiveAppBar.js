@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import { useNavigate } from "react-router-dom";
+// import GitHubIcon from '@mui/icons-material/GitHub';
 
 import { 
   AppBar,
@@ -79,28 +80,9 @@ return (
             <Button sx={{ my: 2, color: 'white', display: 'block' }} onClick={() => navigate('/')}>Home</Button>
             <Button sx={{ my: 2, color: 'white', display: 'block' }} onClick={() => navigate('/projects')}>Projects</Button>
             <Button sx={{ my: 2, color: 'white', display: 'block' }} onClick={() => navigate('/about')}>About Me</Button>
-
-{/* 
-            <Link to="/">Home</Link>
-            <Link to='/about'>About</Link>
-            <Link to='/projects'>Projects</Link> */}
+            <Button sx={{ my: 2, color: 'white', display: 'block' }} onClick={() => {window.location.href = 'mailto:jeffaanderson0@gmail.com'}}>Contact Me</Button>
+            <Button sx={{ my: 2, color: 'white', display: 'block' }} onClick={() => {window.location.href = 'https://github.com/foggeydoughtnut'}}>GitHub</Button>
           </Box>
-
-
-          {/* <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                {page}
-              </Button>
-            ))}
-          </Box> */}
-
-
-
       </Toolbar>
     </Container>
 

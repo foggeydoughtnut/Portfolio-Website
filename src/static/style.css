@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 .add-padding {
   padding: 16px;
   margin: 16px;
