@@ -3,7 +3,9 @@ import React from "react";
 import '../static/style.css';
 import project from '../static/space-guy.resized.png'
 
-
+const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+};
 
 
 const Home = () => {
@@ -20,7 +22,7 @@ const Home = () => {
                     justify="center"
                     style={{ minheight: '100vh' }}
                 >
-                    <Card sx={{ width: '52vw' }}  onClick={event => window.location.href="https://github.com/foggeydoughtnut/SpaceGuy-Unity"}>
+                    <Card sx={{ width: '52vw' }}  onClick={event => openInNewTab("https://github.com/foggeydoughtnut/SpaceGuy-Unity")}>
                         <CardContent>
                             <img src = {project} className='photo' alt="current-project"/>
                         </CardContent>
