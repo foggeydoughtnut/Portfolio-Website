@@ -18,16 +18,4 @@ function App() {
   )
 }
 
-// {/* <div>
-// {/* This is where your header should go */}
-// <div id='navigation-bar'>
-//   <h1>Jeff's Website</h1>
-//   <Link to="/">Home</Link>
-//   <Link to='/about'>About</Link>
-//   <Link to='/projects'>Projects</Link>
-// </div>
-
-
-// </div> */}
-
 export default App;

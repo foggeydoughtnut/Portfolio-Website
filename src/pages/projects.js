@@ -56,64 +56,12 @@ const Projects = () => {
                             </CardContent>
                         </Card>
                    </Grid>
-
     
 
 
 
                 </Grid>
             </div>
-
-            {/* <div className="add-padding">
-                <Grid
-                    container
-                    spacing={0}
-                    direction="column"
-                    alignItems="center"
-                    justify="center"
-                    style={{ minheight: '100vh' }}
-                >
-                    <Card sx={{ width: '52vw' }} onClick={event => window.location.href="https://github.com/foggeydoughtnut/TowerDefense"}>
-                        <CardContent>
-                            <img src = {towerdefense} alt="Tower Defense project"/>
-                        </CardContent>
-                    </Card>
-                </Grid>
-            </div>
-
-            <div className="add-padding">
-                <Grid
-                    container
-                    spacing={0}
-                    direction="column"
-                    alignItems="center"
-                    justify="center"
-                    style={{ minheight: '100vh' }}
-                >
-                    <Card sx={{ width: '52vw' }} onClick={event => window.location.href="https://github.com/foggeydoughtnut/FlashCardApp"}>
-                        <CardContent>
-                            <img src = {flashCardApp} alt="Flash Card App"/>
-                        </CardContent>
-                    </Card>
-                </Grid>
-            </div>
-
-            <div className="add-padding">
-                <Grid
-                    container
-                    spacing={0}
-                    direction="column"
-                    alignItems="center"
-                    justify="center"
-                    style={{ minheight: '100vh' }}
-                >
-                    <Card sx={{ width: '52vw' }} onClick={event => window.location.href="https://github.com/foggeydoughtnut/FPShooter"}>
-                        <CardContent>
-                            <img src = {fpsShooter} alt="FPS Shooter Project"/>
-                        </CardContent>
-                    </Card>
-                </Grid>
-            </div> */}
         </div>
     )
 }

@@ -32,7 +32,7 @@ const ResponsiveAppBar = ({ pages }) => {
 return (
   <AppBar position="static">
     <Container maxWidth="xl">
-      <Toolbar disableGutters>
+      <Toolbar disuableGutters>
         <Typography
           varient="h6"
           noWrap
@@ -61,7 +61,7 @@ return (
             }}
             keepMounted
             transformOrigin={{
-              vertical: 'top',
+            vertical: 'top',
               horizontal: 'left',
             }}
             open={Boolean(anchorElNav)}
