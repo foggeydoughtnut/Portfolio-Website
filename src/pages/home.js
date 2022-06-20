@@ -22,7 +22,7 @@ const Home = () => {
                 >
                     <Card sx={{ width: '52vw' }}  onClick={event => window.location.href="https://github.com/foggeydoughtnut/SpaceGuy-Unity"}>
                         <CardContent>
-                            <img src = {project} alt="current-project"/>
+                            <img src = {project} className='photo' alt="current-project"/>
                         </CardContent>
                     </Card>
                 </Grid>

@@ -25,7 +25,7 @@ const Projects = () => {
                         <Card sx={{ width: '52vw' }} onClick={event => window.location.href="https://github.com/foggeydoughtnut/SpaceGuy-Unity"}>
                             <CardContent>
                                 <Typography>Space Guy is a top-down 2d game made in Unity.</Typography>
-                                <img src = {spaceguy} alt="space-guy project"/>
+                                <img src = {spaceguy} className='photo' alt="space-guy project"/>
                             </CardContent>
                         </Card>
                     </Grid>
@@ -34,16 +34,16 @@ const Projects = () => {
                         <Card sx={{ width: '52vw' }} onClick={event => window.location.href="https://github.com/foggeydoughtnut/TowerDefense"}>
                             <CardContent>
                                 <Typography>This is a Tower-Defense Game that I followed along with a tutorial to create.</Typography>
-                                <img src = {towerdefense} alt="Tower Defense project"/>
+                                <img src = {towerdefense} className='photo' alt="Tower Defense project"/>
                             </CardContent>
                         </Card>
                     </Grid>
                    
                    <Grid item>
-                        <Card sx={{ width: '52vw' }} onClick={event => window.location.href="https://github.com/foggeydoughtnut/FlashCardApp"}>
+                        <Card sx={{ width: '52vw'}} onClick={event => window.location.href="https://github.com/foggeydoughtnut/FlashCardApp"}>
                             <CardContent>
                                 <Typography>This is a flash-card app that I created for Android.</Typography>
-                                <img src = {flashCardApp} alt="Flash Card App"/>
+                                <img src = {flashCardApp} className='photo' alt="Flash Card App"/>
                             </CardContent>
                         </Card>
                    </Grid>
@@ -52,7 +52,7 @@ const Projects = () => {
                         <Card sx={{ width: '52vw' }} onClick={event => window.location.href="https://github.com/foggeydoughtnut/FPShooter"}>
                             <CardContent>
                                 <Typography>This is a First Person Shooter Unity game that I started to create.</Typography>
-                                <img src = {fpsShooter} alt="FPS Shooter Project"/>
+                                <img src = {fpsShooter} className='photo' alt="FPS Shooter Project"/>
                             </CardContent>
                         </Card>
                    </Grid>

@@ -18,7 +18,7 @@ const About = () => {
                     <Grid item>
                         <Card sx={{ width: '52vw' }}>
                             <CardContent>
-                                <Typography variant="p">I am a student at Utah State University studying Computer Science. I am currently a Junior Web Developer at Aidia, and also a Web-Developer for USU IT Service Desk.</Typography>
+                                <Typography variant="p">I am a student at Utah State University studying Computer Science. I am currently a Junior Web Developer at Aidia, and also a Web-Developer for USU IT Networking team.</Typography>
                             </CardContent>
                         </Card>
                     </Grid>
